@@ -1,0 +1,63 @@
+.Dashboard{
+    align-items: center;
+}
+.Dashboard-items{
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Dashboard-title{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+}
+
+.Confirmed{
+    background-color: lightskyblue;
+    color: black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.Recovered{
+    background-color: lightskyblue;
+    color: black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+
+}
+
+.Deaths{
+    background-color: lightskyblue;
+    color: black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.lastChecked{
+    background-color: lightskyblue;
+    color: black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.lastReported{
+    background-color: lightskyblue;
+    color: black;
+    width: 800px;
+    height: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+}

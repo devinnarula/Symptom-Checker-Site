@@ -1,0 +1,48 @@
+.About{
+    color: white;
+}
+
+.People{
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Devin{
+    background-color: lightskyblue;
+    color: black;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.Dillon{
+    background-color: lightskyblue;
+    color: black;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.Shreya{
+    background-color: lightskyblue;
+    color: black;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.Forrest{
+    background-color: lightskyblue;
+    color: black;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 20px;
+}

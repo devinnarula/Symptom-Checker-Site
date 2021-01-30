@@ -1,0 +1,58 @@
+.Cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Resources-Title{
+    text-align: center;
+    color: white;
+}
+
+.Card{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width:85%;
+    height: 300px;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
+    transition: all ease 500ms;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 40px rgb(31, 0, 172);
+}
+
+.Card:hover {
+    width: 86%;
+    height: 310px;
+}
+
+.DashboardLink:hover{
+    text-decoration: underline;
+}
+
+.AboutCard{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width:85%;
+    height: 300px;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
+    transition: all ease 500ms;
+    box-shadow: 2px 2px 20px rgb(36, 36, 36);
+}
+
+.AboutCardLink:hover{
+    text-decoration: underline;
+}
+
+.Graph{
+    width: 80%;
+}
+
+.Symptoms{
+    width: 80%;
+}

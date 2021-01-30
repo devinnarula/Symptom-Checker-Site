@@ -1,0 +1,26 @@
+.Image {
+	height: 500px;
+	border-radius: 50%;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.RightPage {
+  text-align: left;
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  padding-top: 20px;
+  right: 0;
+}
+
+.LeftPage {
+	text-align: center;
+	height: 100%;
+	width: 60%;
+	position: fixed;
+	padding-top: 0px;
+	left: 0;
+  }

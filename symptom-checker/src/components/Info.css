@@ -1,0 +1,54 @@
+.Information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.Information-Title {
+    font-size: 25px;
+}
+
+.Information-Genders {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.Information-Gender {
+    background-color: rgb(223, 223, 223);
+    border-radius: 25px;
+    width: 95px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.Information-Gender:hover {
+    box-shadow: 1px 1px 40px rgb(150, 150, 150);
+}
+
+.Information-Male{
+    width: 75px;
+}
+
+.Information-Female{
+    width: 50px;
+}
+
+.Information-Age {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Information-AgeText {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.Information-AgeSlider {
+    width: 240px;
+}

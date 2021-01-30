@@ -1,0 +1,35 @@
+
+.Chatbox{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 2%;
+    box-shadow: 2px 2px 20px gray;
+}
+
+.Chatbox-Title {
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px gray;
+}
+
+.Chatbox-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Chatbox-Message {
+    color: gray;
+    margin-left: 40px;
+}
+
+.Chatbox-MessageText {
+    font-size: 20px;
+    color: black;
+}
+
+.Chatbox-Type {
+    margin-left: 40px;
+}

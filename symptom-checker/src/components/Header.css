@@ -1,0 +1,117 @@
+.Company{
+    color:white;
+    display:flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.Header{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 200px;
+    right: 0;
+    left: 130px;
+    bottom: 500px;
+}
+
+.Description{
+    color:white;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    top: 200px;
+    right: 0;
+    left: 140px;
+    bottom: 500px;
+}
+
+.Portrait{
+    width:50px;
+    height: 50px;
+    border-radius: 15px;
+    transition: all ease 500ms; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 800px;
+    bottom: 0;
+}
+
+.PortraitImg {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.HealthImage {
+    width:850px;
+    height: 770px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 15px;
+    filter: brightness(50%);
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.Left {
+    position: relative;
+}
+
+.Button{
+    color: white;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width:250px;
+    height: 30px;
+    border-radius: 40px;
+    transition: all ease 500ms;
+    position: relative;
+    top: 200px;
+    right: 0;
+    left: 300px;
+    bottom: 500px;
+    font-size: 10px;
+}
+
+.Button:hover{
+    transform: scale(1.25);
+    opacity:0.7;
+    text-decoration: underline;
+}
+
+.Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: -50px;
+    bottom: 0;
+}
+
+body {
+    background: black;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
