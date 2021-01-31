@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import HealthImage from '../images/healthimage.jpg'
-import Portrait from '../images/portrait.jpg'
 import Symptobot from '../images/symptobot.png'
 
 class Header extends Component{
@@ -20,7 +19,7 @@ class Header extends Component{
                         <h2>There's no need to fear when symptoms appear. </h2>
                     </div>
                     <div className="Description">
-                        <h3>Now, with SymptoBot, you can answer just a few questions to help you discover the cause of your pesky symptoms.</h3>
+                        <h3>With SymptoBot, you can answer just a few questions to help you discover the cause of your pesky symptoms.</h3>
                     </div>
                     <div className = "Button">
                         <h1><Link className='App-link' to='/SymptomChecker'>Get Started!</Link></h1>

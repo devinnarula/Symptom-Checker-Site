@@ -37,6 +37,7 @@ class Chatbox extends Component {
     }
 
     changeStatus(symptom){
+        // document.getElementById(symptom).style.backgroundColor = "gray";
         console.log(symptom)
         let index = this.props.symptoms.indexOf(symptom);
         let items = [...this.state.symptomStatus];
@@ -114,7 +115,7 @@ class Chatbox extends Component {
                     <h1 className='Information-Title'>Please Select Your Symptoms:</h1>
                     <div className='Information-SymptomList'>
                             {this.props.symptoms.map((m) => (
-                                <div key={uuid()}id='Information-Symptom' className="Information-Symptom" onClick={() => this.changeStatus(m)}>{m}</div>      
+                                <div key={uuid()} id={m} className="Information-Symptom" onClick={() => this.changeStatus(m)}>{m}</div>      
                             ))}
                     </div>
                     <input className="Information-Submit" type="submit" value="Submit" onClick={this.handleSubmit}/>

@@ -1,9 +1,11 @@
 .Welcome{
     color:white;
     position: relative;
-    top: 20px;
-    left: 200px;
-    float: left;
+    /* top: 20px;
+    bottom: 0;
+    margin-left: 200px;
+    right: 0;
+    float: left; */
     letter-spacing: 2px;
 }
  
@@ -13,8 +15,10 @@
     font-weight: bold;
     position: absolute;
     top: 80px;
-    left: 150px;
-    float: left;
+    /* bottom: 0;
+    left: 30px;
+    right: 0;
+    float: left; */
 }
 
 .Description{
@@ -22,16 +26,18 @@
     text-align: center;
     font-weight: lighter;
     position: absolute;
-    top: 100px;
-    right: 0;
-    left: 200px;
-    float: left;
+    top: 520px;
+    margin-left: 300px;
+    margin-right: 300px;
+    /* right: 20px;
+    left: 10px;
+    float: left; */
     letter-spacing: 1px;
 }
 
 .Symptobot{
-    width:300px;
-    height: 300px;
+    width:350px;
+    height: 350px;
     border-radius: 15px;
     transition: all ease 500ms; 
     display: flex;
@@ -39,11 +45,11 @@
     justify-content: flex-end;
     align-items: center;
     position: absolute;
-    top: 220px;
-    right: 0;
+    top: 155px;
+    /* right: 0;
     left: 280px;
     bottom: 0;
-    float: left;
+    float: left; */
 }
 
 .SymptobotImg {
@@ -54,8 +60,8 @@
 }
 
 .HealthImage {
-    width:850px;
-    height: 770px;
+    width:50%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -68,7 +74,9 @@
 }
 
 .Left {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Button{
@@ -82,12 +90,12 @@
     border-radius: 40px;
     transition: all ease 500ms;
     position: absolute;
-    top: 400px;
-    right: 0;
+    top: 670px;
+    /* right: 0;
     left: 300px;
-    bottom: 200px;
+    bottom: 200px; */
     font-size: 10px;
-    float: left;
+    /* float: left; */
 }
 
 .Button:hover{

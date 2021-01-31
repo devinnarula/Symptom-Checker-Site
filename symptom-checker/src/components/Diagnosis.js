@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios'
 import './Diagnosis.css';
+import {v4 as uuid} from "uuid";
+
 
 class Diagnosis extends Component {
     constructor(props){
         super(props)
         this.state = {
-            
+            conditions: []
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -142,7 +145,8 @@ class Diagnosis extends Component {
           };
 
           await axios.request(options).then(function (response) {
-              console.log(response.data);
+              console.log(response.data.conditions);
+              self.setState({conditions: response.data.conditions});
           }).catch(function (error) {
               console.error(error);
           });
@@ -151,9 +155,10 @@ class Diagnosis extends Component {
         return (
             <div className='Diagnosis'>
                 <h1>Potential Diagnosis:</h1>
-                {/* {this.props.symptoms.map((m) => (
-                                <div id='Information-Symptom' className="Information-Symptom" onClick={() => this.changeStatus(m)}>{m}</div>      
-                 ))} */}
+                {this.state.conditions.map((m) => (
+                    <h1 key={uuid()}>{m.name}</h1>      
+                 ))}
+            <Link className='toHome' to='/'>Go to Home</Link>
             </div>
         );
     }

@@ -100,3 +100,7 @@
     margin-right: 2px;
     margin-bottom: 2px;
 }
+
+.Information-Symptom:active {
+    background-color: gray;
+}

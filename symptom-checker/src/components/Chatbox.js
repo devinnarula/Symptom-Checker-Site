@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import axios from 'axios'
 import './Chatbox.css';
 import Info from './Info'
 
@@ -70,7 +69,6 @@ class Chatbox extends Component {
                 <div className='Chatbox-Message'>
                     {/* <h1 className='Chatbox-MessageText'>{this.state.Message}</h1> */}
                 </div>
-                
                 </div>
             </div>
         );
