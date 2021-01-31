@@ -1,36 +1,37 @@
-.Company{
+.Welcome{
     color:white;
-    display:flex;
-    padding-left: 20px;
-    padding-top: 20px;
-    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    float: left;
+    letter-spacing: 2px;
 }
-
+ 
 .Header{
     color:white;
     text-align: center;
     font-weight: bold;
-    position: relative;
-    top: 200px;
-    right: 0;
-    left: 130px;
-    bottom: 500px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    float: left;
 }
 
 .Description{
     color:white;
     text-align: center;
     font-weight: lighter;
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 100px;
     right: 0;
-    left: 140px;
-    bottom: 500px;
+    left: 200px;
+    float: left;
+    letter-spacing: 1px;
 }
 
-.Portrait{
-    width:50px;
-    height: 50px;
+.Symptobot{
+    width:300px;
+    height: 300px;
     border-radius: 15px;
     transition: all ease 500ms; 
     display: flex;
@@ -38,13 +39,14 @@
     justify-content: flex-end;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 220px;
     right: 0;
-    left: 800px;
+    left: 280px;
     bottom: 0;
+    float: left;
 }
 
-.PortraitImg {
+.SymptobotImg {
     width:100%;
     height: 100%;
     object-fit: cover;
@@ -65,10 +67,6 @@
     filter: brightness(50%);
 }
 
-.Grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
 .Left {
     position: relative;
 }
@@ -83,17 +81,18 @@
     height: 30px;
     border-radius: 40px;
     transition: all ease 500ms;
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 400px;
     right: 0;
     left: 300px;
-    bottom: 500px;
+    bottom: 200px;
     font-size: 10px;
+    float: left;
 }
 
 .Button:hover{
     transform: scale(1.25);
-    opacity:0.7;
+    background-color: rgb(50, 175, 252);
     text-decoration: underline;
 }
 

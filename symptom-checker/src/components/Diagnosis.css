@@ -1,0 +1,10 @@
+.Diagnosis{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 2%;
+    box-shadow: 2px 2px 20px gray;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

@@ -1,30 +1,31 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import HealthImage from '../images/healthimage.jpg'
 import Portrait from '../images/portrait.jpg'
+import Symptobot from '../images/symptobot.png'
 
 class Header extends Component{
     render(){
         return(
             <div className="Grid">
-                <div className="Left">
-                    <div className="Company">
-                        <h3>Welcome to SymptoBot</h3>
+                <div className="Left"> 
+                    <div className="Welcome">
+                        <h1>Welcome to SymptoBot</h1>
+                    </div>
+                    <div className='Symptobot'>
+                        <img alt="" className="SymptobotImg" src={Symptobot}></img>
                     </div>
                     <div className="Header">
-                        <h1>There's no need to fear when symptoms appear. </h1>
+                        <h2>There's no need to fear when symptoms appear. </h2>
                     </div>
                     <div className="Description">
-                        <h4>Now, with SymptoBot, you can answer just a few questions to help you discover the cause of your pesky symptoms.</h4>
+                        <h3>Now, with SymptoBot, you can answer just a few questions to help you discover the cause of your pesky symptoms.</h3>
                     </div>
                     <div className = "Button">
                         <h1><Link className='App-link' to='/SymptomChecker'>Get Started!</Link></h1>
                     </div>
-                    <img src={HealthImage} className="HealthImage" />
-                </div>
-                <div className='Portrait'>
-                        <img className="PortraitImg" src={Portrait}></img>
+                    <img alt="" src={HealthImage} className="HealthImage" />
                 </div>
             </div>
         )

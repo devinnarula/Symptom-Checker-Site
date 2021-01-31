@@ -25,6 +25,10 @@
     padding-top: 10px;
 }
 
+.Confirmed:hover{
+    background-color: rgb(32, 170, 255);
+}
+
 .Recovered{
     background-color: lightskyblue;
     color: black;
@@ -33,6 +37,10 @@
     border-radius: 15px;
     padding-top: 10px;
 
+}
+
+.Recovered:hover{
+    background-color: rgb(32, 170, 255);
 }
 
 .Deaths{
@@ -44,6 +52,10 @@
     padding-top: 10px;
 }
 
+.Deaths:hover{
+    background-color: rgb(32, 170, 255);
+}
+
 .lastChecked{
     background-color: lightskyblue;
     color: black;
@@ -53,6 +65,10 @@
     padding-top: 10px;
 }
 
+.lastChecked:hover{
+    background-color: rgb(32, 170, 255);
+}
+
 .lastReported{
     background-color: lightskyblue;
     color: black;
@@ -60,4 +76,8 @@
     height: 50px;
     border-radius: 15px;
     padding-top: 10px;
+}
+
+.lastReported:hover{
+    background-color: rgb(32, 170, 255);
 }

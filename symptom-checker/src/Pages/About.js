@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
 import './About.css';
 
 class About extends Component{

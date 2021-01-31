@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
-import { Navbar, Nav } from 'react-bootstrap';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import SymptomChecker from './Pages/SymptomChecker'
 import Dashboard from './Pages/Dashboard'
 import About from './Pages/About'
+import Contact from './Pages/Contact'
 import './App.css';
 
 class App extends Component {
@@ -26,6 +26,7 @@ class App extends Component {
           <Route exact path='/SymptomChecker' component={(routeProps) => (<SymptomChecker />)} />
           <Route exact path='/Dashboard' component={(routeProps) => (<Dashboard />)} />
           <Route exact path='/About' component={(routeProps) => (<About />)} />
+          <Route exact path='/Contact' component={(routeProps) => (<Contact />)} />
         </BrowserRouter>
       </div>
     );

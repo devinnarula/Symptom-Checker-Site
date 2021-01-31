@@ -7,6 +7,7 @@
 .Resources-Title{
     text-align: center;
     color: white;
+    letter-spacing: 2px;
 }
 
 .Card{
@@ -14,25 +15,26 @@
     background-color: white;
     color: black;
     width:85%;
-    height: 300px;
+    height: 200px;
     border-radius: 15px;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 30px;
     transition: all ease 500ms;
     margin-bottom: 20px;
     box-shadow: 3px 3px 40px rgb(31, 0, 172);
+    letter-spacing: 2px;
 }
 
 .Card:hover {
     width: 86%;
-    height: 310px;
+    height: 210px;
 }
 
 .DashboardLink:hover{
     text-decoration: underline;
 }
 
-.AboutCard{
+.ContactCard{
     text-align: center;
     background-color: white;
     color: black;
@@ -45,14 +47,18 @@
     box-shadow: 2px 2px 20px rgb(36, 36, 36);
 }
 
-.AboutCardLink:hover{
+.ContactCardLink:hover{
     text-decoration: underline;
 }
 
 .Graph{
-    width: 80%;
+    width: 60%;
 }
 
-.Symptoms{
-    width: 80%;
+.Aboutus{
+    width: 35%;
+}
+
+.Contact{
+    width: 30%;
 }

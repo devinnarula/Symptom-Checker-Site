@@ -1,0 +1,85 @@
+.ContactContainer{
+    background-color: lightskyblue;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 160px;
+}
+
+.Title1{
+     color: black;
+}
+
+.Title2{
+    color: black;
+    font-weight: normal;
+}
+
+.Contact-Form{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+}
+
+.Contact-Caption{
+    color: black;
+    font-size: 20px;
+}
+
+.Contact-Subject{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.Contact-Subject:focus{
+    outline: 0;
+}
+
+.Contact-Message{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.Contact-Message:focus{
+    outline: 0;
+}
+
+.Contact-Button{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 26px;   
+    padding: 2px 6px 2px 6px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.Contact-Button:hover{
+    box-shadow: 7px 10px 12px -5px rgba(150,150,150,0.2);
+    width: 120px;
+}
+
+.HealthImage {
+    width:850px;
+    height: 770px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 15px;
+    filter: brightness(50%);
+}

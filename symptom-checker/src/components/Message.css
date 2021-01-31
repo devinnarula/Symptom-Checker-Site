@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+.Message {
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(128, 128, 128);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 2px;
+  }
+  
+  .Message { transition: all 1s ease-in-out; }
+  .Message:hover { transform: scale(1.1); }

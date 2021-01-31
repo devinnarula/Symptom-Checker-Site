@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Cards.css';
 import Graph from '../images/graph.jpg'
-import Symptoms from '../images/symptoms.jpg'
+import Aboutus from '../images/aboutus.png'
+import Contact from '../images/contact.png'
 
 class Cards extends Component{
     render(){
@@ -12,24 +13,24 @@ class Cards extends Component{
                     <h1 className="Resources-Title">Other Resources</h1>
                 </div>
                 <Link className='Card' to='/Dashboard'>
-                {/* <div className="DashboardCard"> */}
+                <div className="DashboardCard">
                     <div>
                         <h2 className="DashboardLink">COVID-19 Dashboard</h2>
                     </div>
-                    <img src={Graph} className="Graph" />
-                    <div>
-                        <h3>Real time COVID-19 data</h3>
-                    </div>
-                {/* </div> */}
+                    <img alt="" src={Graph} className="Graph" />
+                </div>
                 </Link>
                 <Link className='Card' to='/About'>
                     <div>
                         <h2 className="AboutCardLink"><Link className='App-link' to='/About'>About Us</Link></h2>
                     </div>
-                    <img src={Symptoms} className="Symptoms" />
+                    <img alt="" src={Aboutus} className="Aboutus" />
+                </Link>
+                <Link className='Card' to='/Contact'>
                     <div>
-                        <h3>What is a symptom checker?</h3>
+                        <h2 className="ContactCardLink"><Link className='App-link' to='/Contact'>Contact</Link></h2>
                     </div>
+                    <img alt="" src={Contact} className="Contact" />
                 </Link>
             </div>
         )
