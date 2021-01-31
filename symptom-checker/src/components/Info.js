@@ -92,12 +92,12 @@ class Chatbox extends Component {
             <div className='Information'>
                 {this.state.submitted && <Diagnosis sex={this.state.Gender} age={this.state.Age} symptomStatus={this.state.symptomStatus} />}
                 <div className='Information-General'>
-                    <h1 className='Information-Title'>Please Select Your Sex:</h1>
+                    <h1 className='Information-Title'>Please Select Your Sex: {this.state.Gender}</h1>
                     <div className='Information-Genders'>
-                        <div className='Information-Gender'>
+                        <div className='Information-Gender' onClick={this.selectMale}>
                             <img alt="" src={Male} className='Information-Male' ></img>
                         </div>
-                        <div className='Information-Gender'>
+                        <div className='Information-Gender' onClick={this.selectFemale}>
                             <img alt="" src={Female} className='Information-Female' ></img>
                         </div>
                     </div>

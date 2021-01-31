@@ -93,14 +93,21 @@
 }
 
 .Information-Symptom {
-    background-color: lightgrey;
+    background-color: rgb(137, 183, 252);
     border: 1px solid black;
+    border-radius: 15px;
     width: 90px;
-    height: 60px;
+    height: 50px;
     margin-right: 2px;
     margin-bottom: 2px;
+    padding-top: 15px;
 }
 
 .Information-Symptom:active {
-    background-color: gray;
+    background-color: rgb(92, 156, 252);
+}
+
+.Information-Submit{
+    background-color: white;
+    width: 470px;
 }

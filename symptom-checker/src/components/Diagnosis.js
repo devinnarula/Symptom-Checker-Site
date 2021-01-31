@@ -27,7 +27,7 @@ class Diagnosis extends Component {
         var patientData = {
             sex: self.props.sex,
             age: {
-              "value": self.props.age
+              "value": parseInt(self.props.age, 10)
             },
             evidence: [
                 {
