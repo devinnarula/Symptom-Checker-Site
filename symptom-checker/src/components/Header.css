@@ -7,6 +7,7 @@
     right: 0;
     float: left; */
     letter-spacing: 2px;
+    font-size: 20px;
 }
  
 .Header{
@@ -14,7 +15,7 @@
     text-align: center;
     font-weight: bold;
     position: absolute;
-    top: 80px;
+    top: 10%;
     /* bottom: 0;
     left: 30px;
     right: 0;
@@ -26,9 +27,9 @@
     text-align: center;
     font-weight: lighter;
     position: absolute;
-    top: 520px;
-    margin-left: 300px;
-    margin-right: 300px;
+    top: 72%;
+    margin-left: 15%;
+    margin-right: 15%;
     /* right: 20px;
     left: 10px;
     float: left; */
@@ -36,8 +37,8 @@
 }
 
 .Symptobot{
-    width:350px;
-    height: 350px;
+    width:45%;
+    height: 45%;
     border-radius: 15px;
     transition: all ease 500ms; 
     display: flex;
@@ -45,7 +46,7 @@
     justify-content: flex-end;
     align-items: center;
     position: absolute;
-    top: 155px;
+    top: 20%;
     /* right: 0;
     left: 280px;
     bottom: 0;
@@ -60,7 +61,7 @@
 }
 
 .HealthImage {
-    width:50%;
+    width:100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
@@ -68,7 +69,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    z-index: -1;
+    -index: -1;
     border-radius: 15px;
     filter: brightness(50%);
 }
@@ -85,12 +86,12 @@
     text-align: center;
     padding-top: 1px;
     padding-bottom: 20px;
-    width:250px;
-    height: 30px;
+    width:30%;
+    height: 3%;
     border-radius: 40px;
     transition: all ease 500ms;
     position: absolute;
-    top: 670px;
+    top: 85%;
     /* right: 0;
     left: 300px;
     bottom: 200px; */

@@ -15,6 +15,7 @@ class Chatbox extends Component {
             Gender: 'male',
             Age: 18,
             symptomStatus: ["absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent","absent"],
+            color: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
             submitted: false
         };
         this.selectMale = this.selectMale.bind(this);
@@ -22,6 +23,7 @@ class Chatbox extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.changeStatus = this.changeStatus.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.getColor = this.getColor.bind(this);
     }
 
     selectMale() {
@@ -45,6 +47,31 @@ class Chatbox extends Component {
         item = 'present';
         items[index] = item;
         this.setState({symptomStatus: items});
+
+        let items2 = [...this.state.color];
+        let item2 = {...items2[index]};
+        item2 = true;
+        items2[index] = item2;
+        this.setState({color: items2});
+        console.log(this.state.color)
+    }
+
+    getColor(symptom){
+        console.log('hi')
+        // document.getElementById(symptom).style.backgroundColor = "gray";
+        console.log(symptom)
+        let index = this.props.symptoms.indexOf(symptom);
+         let items = [...this.state.symptomStatus];
+        let item = {...items[index]};
+        var ret = ``;
+        if(item === 'present')
+            ret= 'rgb(92, 156, 252)';
+        else
+            ret= 'rgb(137, 183, 252)';
+            console.log(ret)
+        return ret;
+        // items[index] = item;
+        // this.setState({symptomStatus: items});
     }
 
     handleSubmit(){
@@ -94,10 +121,10 @@ class Chatbox extends Component {
                 <div className='Information-General'>
                     <h1 className='Information-Title'>Please Select Your Sex: {this.state.Gender}</h1>
                     <div className='Information-Genders'>
-                        <div className='Information-Gender' onClick={this.selectMale}>
+                        <div className='Information-Gender' style={{backgroundColor: this.state.Gender==='male' ? 'rgb(180, 180, 180)' : 'rgb(223, 223, 223)'}} onClick={this.selectMale}>
                             <img alt="" src={Male} className='Information-Male' ></img>
                         </div>
-                        <div className='Information-Gender' onClick={this.selectFemale}>
+                        <div className='Information-Gender' style={{backgroundColor: this.state.Gender==='female' ? 'rgb(180, 180, 180)' : 'rgb(223, 223, 223)'}} onClick={this.selectFemale}>
                             <img alt="" src={Female} className='Information-Female' ></img>
                         </div>
                     </div>
@@ -115,7 +142,7 @@ class Chatbox extends Component {
                     <h1 className='Information-Title'>Please Select Your Symptoms:</h1>
                     <div className='Information-SymptomList'>
                             {this.props.symptoms.map((m) => (
-                                <div key={uuid()} id={m} className="Information-Symptom" onClick={() => this.changeStatus(m)}>{m}</div>      
+                                <div key={uuid()} id={m} className="Information-Symptom" style={{backgroundColor: this.state.color[this.props.symptoms.indexOf(m)] ? 'rgb(92, 156, 252)' : 'rgb(137, 183, 252)'}} onClick={() => this.changeStatus(m)}>{m}</div>      
                             ))}
                     </div>
                     <input className="Information-Submit" type="submit" value="Submit" onClick={this.handleSubmit}/>

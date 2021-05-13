@@ -70,7 +70,7 @@
     width: 120px;
 }
 
-.HealthImage {
+/* .HealthImage {
     width:850px;
     height: 770px;
     object-fit: cover;
@@ -82,4 +82,30 @@
     z-index: -1;
     border-radius: 15px;
     filter: brightness(50%);
+} */
+
+.Button4{
+    color: white;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width:12%;
+    height: 30px;
+    border-radius: 40px;
+    transition: all ease 500ms;
+    position: absolute;
+    top: 670px;
+    left:44%;
+    /* right: 0;
+    left: 300px;
+    bottom: 200px; */
+    font-size: 10px;
+    /* float: left; */
+}
+
+.Button4:hover{
+    transform: scale(1.25);
+    background-color: rgb(50, 175, 252);
+    text-decoration: underline;
 }

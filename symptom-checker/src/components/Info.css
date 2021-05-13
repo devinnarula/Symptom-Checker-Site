@@ -89,15 +89,15 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
-    width: 500px;
+    /* width: 100%; */
 }
 
 .Information-Symptom {
     background-color: rgb(137, 183, 252);
     border: 1px solid black;
     border-radius: 15px;
-    width: 90px;
-    height: 50px;
+    width: 18%;
+    height: 5vh;
     margin-right: 2px;
     margin-bottom: 2px;
     padding-top: 15px;
@@ -108,6 +108,11 @@
 }
 
 .Information-Submit{
-    background-color: white;
-    width: 470px;
+    background-color: rgb(58, 78, 255);
+    color: white;
+    font-size: 30px;
+    width: 94%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
 }

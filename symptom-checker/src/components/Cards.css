@@ -8,6 +8,7 @@
     text-align: center;
     color: white;
     letter-spacing: 2px;
+    font-size: 30px;
 }
 
 .Card{
@@ -15,7 +16,7 @@
     background-color: white;
     color: black;
     width:85%;
-    height: 200px;
+    height: 22%;
     border-radius: 15px;
     padding-top: 5px;
     padding-left: 30px;
@@ -27,7 +28,7 @@
 
 .Card:hover {
     width: 86%;
-    height: 210px;
+    height: 30%;
 }
 
 .DashboardLink:hover{

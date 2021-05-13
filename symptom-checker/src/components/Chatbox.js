@@ -61,7 +61,7 @@ class Chatbox extends Component {
     render() {
         return (
             <div className='Chatbox'>
-                <h1 className='Chatbox-Title'>SymptoBot</h1>
+                <h1 className='Chatbox-Title'>SymptoBot says...</h1>
 
                 <Info />
 

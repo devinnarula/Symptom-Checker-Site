@@ -12,7 +12,7 @@
 .Dashboard-title{
     color: white;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 60px;
 }
 
@@ -22,7 +22,7 @@
     width: 800px;
     height: 50px;
     border-radius: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .Confirmed:hover{
@@ -35,7 +35,7 @@
     width: 800px;
     height: 50px;
     border-radius: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
 
 }
 
@@ -49,7 +49,7 @@
     width: 800px;
     height: 50px;
     border-radius: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .Deaths:hover{
@@ -62,7 +62,7 @@
     width: 800px;
     height: 50px;
     border-radius: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .lastChecked:hover{
@@ -75,9 +75,35 @@
     width: 800px;
     height: 50px;
     border-radius: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .lastReported:hover{
     background-color: rgb(32, 170, 255);
+}
+
+.Button3{
+    color: white;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width:12%;
+    height: 30px;
+    border-radius: 40px;
+    transition: all ease 500ms;
+    position: absolute;
+    top: 700px;
+    left:44%;
+    /* right: 0;
+    left: 300px;
+    bottom: 200px; */
+    font-size: 10px;
+    /* float: left; */
+}
+
+.Button3:hover{
+    transform: scale(1.25);
+    background-color: rgb(50, 175, 252);
+    text-decoration: underline;
 }

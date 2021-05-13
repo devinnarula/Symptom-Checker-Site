@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import './Dashboard.css';
 import axios from 'axios'
 
@@ -39,6 +40,9 @@ class Dashboard extends Component {
           <h1 className="Deaths">Deaths: {this.state.data.deaths}</h1>
           <h1 className="lastChecked">Last Checked: {this.state.data.lastChecked}</h1>
           <h1 className="lastReported">Last Reported: {this.state.data.lastReported}</h1>
+        </div>
+        <div className = "Button3">
+          <h1><Link className='App-link' to='/'>Go Home</Link></h1>
         </div>
       </div>
     );

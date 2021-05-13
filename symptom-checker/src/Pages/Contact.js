@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Contact.css';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     let [subject, setSubject] = useState("")
@@ -25,6 +26,9 @@ const Contact = () => {
                 <textarea className="Contact-Message" value={message} onChange={handleMessageChange}></textarea>
                 <a className="Contact-Button" href={`mailto:techguy@gmail.com?&subject=${subject}&body=${message}`}>Send Email</a>
             </form>
+            <div className = "Button4">
+                <h1><Link className='App-link' to='/'>Go Home</Link></h1>
+            </div>
         </div> 
     )
 }

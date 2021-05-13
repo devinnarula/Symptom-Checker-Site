@@ -7,7 +7,10 @@ import Symptobot from '../images/symptobot.png'
 class Header extends Component{
     render(){
         return(
+            <div>
+            
             <div className="Grid">
+                <img alt="" src={HealthImage} className="HealthImage" />
                 <div className="Left"> 
                     <div className="Welcome">
                         <h1>Welcome to SymptoBot</h1>
@@ -24,8 +27,9 @@ class Header extends Component{
                     <div className = "Button">
                         <h1><Link className='App-link' to='/SymptomChecker'>Get Started!</Link></h1>
                     </div>
-                    <img alt="" src={HealthImage} className="HealthImage" />
+                    
                 </div>
+            </div>
             </div>
         )
     }

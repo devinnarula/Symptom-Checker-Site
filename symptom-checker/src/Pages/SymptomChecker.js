@@ -12,9 +12,9 @@ class SymptomChecker extends Component {
             <h1 className="SymptomChecker-Title">Symptom Checker</h1> 
           {/* </div> */}
           <Chatbox />
-          <div className='BackHome' >
-            <Link to='/'>Back to Home</Link>
-          </div>
+          <div className = "BackHome">
+                <h1><Link className='App-link' to='/'>Go Home</Link></h1>
+            </div>
       </div>
     );
   }
