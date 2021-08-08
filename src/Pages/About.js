@@ -3,6 +3,7 @@ import './About.css';
 import { Link } from 'react-router-dom';
 import Dillon from '../images/Dillon.jpg'
 import Forrest from '../images/IMG_0008.JPG'
+import Devin from '../images/Devin.jpg'
 
 class About extends Component{
     render(){
@@ -14,7 +15,7 @@ class About extends Component{
                 <div className="People">
                     <div className="Devin">
                         <h2>Devin Narula</h2>
-                        <img className="DevinImg" src="https://devinnarula.com/static/Profile-dc702ab1cc214af40f56873c8f2dd5f8.jpg" alt="new"/>
+                        <img className="DevinImg" src={Devin} alt="new"/>
                     </div>
                     <div className="Dillon">
                         <h2>Dillon Ranwala</h2>
@@ -30,7 +31,7 @@ class About extends Component{
                     </div>
                 </div>
                 <div>
-                    <h1>SymptoBot's Purpose</h1>  
+                    <h1>SymptoBot's Purpose</h1>
                     <h4>We designed this user-friendly interface to help when you need a quick diagnosis.</h4>
                     <h4>Note: your diagnosis is not confirmed and you should always consult a doctor about any symptoms you may be experiencing.</h4>
                 </div>
