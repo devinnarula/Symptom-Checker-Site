@@ -133,7 +133,7 @@ class Diagnosis extends Component {
             ]
         }
         var options = {
-            url: 'https://api.infermedica.com/v2/diagnosis',
+            url: 'https://api.infermedica.com/v3/diagnosis',
             method: 'POST',
             headers: {
                 'App-Id': 'aa2fb846',
