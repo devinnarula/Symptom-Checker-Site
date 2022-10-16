@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.75a47746.chunk.css",
-    "main.js": "/static/js/main.a563117c.chunk.js",
-    "main.js.map": "/static/js/main.a563117c.chunk.js.map",
+    "main.js": "/static/js/main.598593a4.chunk.js",
+    "main.js.map": "/static/js/main.598593a4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03d64e52.js",
     "runtime-main.js.map": "/static/js/runtime-main.03d64e52.js.map",
     "static/js/2.ec076c7a.chunk.js": "/static/js/2.ec076c7a.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.75a47746.chunk.css.map": "/static/css/main.75a47746.chunk.css.map",
     "static/js/2.ec076c7a.chunk.js.LICENSE.txt": "/static/js/2.ec076c7a.chunk.js.LICENSE.txt",
+    "static/media/Devin.b3b9ce63.jpg": "/static/media/Devin.b3b9ce63.jpg",
     "static/media/Dillon.ef16cdc4.jpg": "/static/media/Dillon.ef16cdc4.jpg",
     "static/media/IMG_0008.c8d6967c.JPG": "/static/media/IMG_0008.c8d6967c.JPG",
     "static/media/aboutus.c4073fb3.png": "/static/media/aboutus.c4073fb3.png",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.03d64e52.js",
     "static/js/2.ec076c7a.chunk.js",
     "static/css/main.75a47746.chunk.css",
-    "static/js/main.a563117c.chunk.js"
+    "static/js/main.598593a4.chunk.js"
   ]
 }
